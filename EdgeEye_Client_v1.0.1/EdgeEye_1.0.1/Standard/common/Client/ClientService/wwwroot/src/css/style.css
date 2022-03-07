@@ -1,0 +1,112 @@
+/* line 1, ../style/sass/style.sass */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #191919;
+}
+
+/* line 6, ../style/sass/style.sass */
+a {
+  text-decoration: none;
+}
+
+/* scrollbar */
+/* line 9, ../style/sass/style.sass */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+}
+
+/* line 12, ../style/sass/style.sass */
+::-webkit-scrollbar-thumb {
+  background: #596D78;
+  border-radius: 10px;
+}
+
+/* line 15, ../style/sass/style.sass */
+::-webkit-scrollbar-track {
+  background: #b8c0c8;
+}
+
+/* line 17, ../style/sass/style.sass */
+body {
+  scrollbar-face-color: #596D78;
+  scrollbar-track-color: #b8c0c8;
+}
+
+/* line 21, ../style/sass/style.sass */
+.pad0 {
+  padding: 0;
+}
+
+/* line 23, ../style/sass/style.sass */
+.pad5 {
+  padding: 5px;
+}
+
+/* line 25, ../style/sass/style.sass */
+.pad_tb10 {
+  padding: 10px 0;
+}
+
+/* line 27, ../style/sass/style.sass */
+.pad_tb15 {
+  padding: 15px 0;
+}
+
+/* line 29, ../style/sass/style.sass */
+.pad_tb20 {
+  padding: 20px 0;
+}
+
+/* line 31, ../style/sass/style.sass */
+.pad_t10pct {
+  padding-top: 10%;
+}
+
+/* line 33, ../style/sass/style.sass */
+.pad_t15pct {
+  padding-top: 15%;
+}
+
+/* line 35, ../style/sass/style.sass */
+.pad_t18pct {
+  padding-top: 18%;
+}
+
+/* line 37, ../style/sass/style.sass */
+.pad_t20pct {
+  padding-top: 20%;
+}
+
+/* line 39, ../style/sass/style.sass */
+.mar10 {
+  margin: 10px;
+}
+
+/* line 41, ../style/sass/style.sass */
+.opacity5 {
+  opacity: 0.5;
+}
+
+/* line 43, ../style/sass/style.sass */
+.opacity8 {
+  opacity: 0.8;
+}
+
+/* content */
+/* line 47, ../style/sass/style.sass */
+.content {
+  width: 100%;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* container */
+/* line 55, ../style/sass/style.sass */
+.container {
+  margin-top: 3%;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- Sidebar Holder -->
+		<nav id="nav" class="cbp-spmenu cbp-spmenu-left">
+	        <div id="dismiss" class="toggle-menu menu-left">
+	            <i class="fa fa-times" aria-hidden="true"></i>
+	        </div>
+	        <div class="sidebar-header text-center">
+				<img alt="" id="logo_icap">
+	        </div>
+	        <div class="sidebar-user text-center">
+	        	<!-- <i class="fa fa-user-circle-o fa-5x"></i> -->
+	            <p class="menu_box">
+	                Client
+	            </p>
+	            <p class="menu_box">
+	                Service
+	            </p>
+	            <small>
+	                V 1.0.1
+	            </small>        
+	        </div>
+	    
+	        <ul class="list-unstyled"> 
+	            <a class="home-btn" style="cursor: pointer;">
+	                <li>
+						<i class="fa fa-home fa-2x" id="logo_home" aria-hidden="true"></i>
+						Dashboard
+	                </li>
+	            </a>    
+	            <a class="logs-btn" style="cursor: pointer;">
+	                <li>
+						<i class="fa fa-file-text-o" id="logo_remote" aria-hidden="true"></i>
+	                    Logs
+	                </li>
+	            </a>       
+	            <a class="setting-btn" style="cursor: pointer;">
+	                <li>
+						<i class="fa fa-cog" id="logo_device" aria-hidden="true"></i>
+	                    Setting
+	                </li>
+	            </a>   
+	        </ul>
+	    
+	        <ul class="list-unstyled text-center">
+	            <img alt="" id="logo_inno">
+	        </ul>
+	    </nav>
+
+		<!-- Page Content Holder -->
+		<div class="content">
+			
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+
+				<div class="navbar-header pull-left">
+	                <button type="button" id="sidebarCollapse" class="btn navbar-btn toggle-menu menu-left">
+	                    <i class="fa fa-bars" aria-hidden="true"></i>
+	                </button>
+	                <a class="home-btn" style="cursor: pointer;">
+						<img id="logo_icap_nav" alt="">
+					</a>
+	            </div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+						<ul class="navbar-right">
+							<li class="dropdown">
+								<a class="home-btn" style="cursor: pointer;">
+									<i aria-hidden="true" class="fa fa-home"></i>
+								</a>
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<i aria-hidden="true" class="fa fa-file-text"></i>
+									<span class="badge" id="badgeitem"></span>
+								</a>
+								<ul class="dropdown-menu menu-event" id="unreadevent">
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" style="cursor: pointer;">
+									<i aria-hidden="true" class="fa fa-cog"></i>
+								</a>
+								<ul class="dropdown-menu">
+        
+									<a id="setting-device" style="cursor: pointer;">
+										<li>
+											Device setting
+										</li>
+									</a>
+									<a id="setting-loc" style="cursor: pointer;">
+										<li>
+											Location setting
+										</li>
+									</a>
+									<a id="setting-threshold" style="cursor: pointer;">
+										<li>
+											Threshold setting
+										</li>
+									</a>
+								</ul>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</nav>
+			<!-- nav end -->
+
+			<!-- container -->
+			<div id="main">
+			</div>
+			<!-- container end -->
+		</div>
+	</div>
+	<div class="overlay"></div>
+</html>

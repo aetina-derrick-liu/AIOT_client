@@ -1,0 +1,10 @@
+[Unit]
+Description=iCAP Client Service
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/sbin/iCAP_ClientService
+
+[Install]
+WantedBy=multi-user.target

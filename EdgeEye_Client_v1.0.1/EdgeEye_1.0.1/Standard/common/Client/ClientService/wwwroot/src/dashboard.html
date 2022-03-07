@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-12 pad0">
+			<div class="col-md-3">
+				<div class="cardsmall">						
+					<small>Server IP</small><span id="status-led" class="led01"></span>
+					<div class="text-right">
+						<b id="serverip" class="font18"></b>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="cardsmall">
+					<small id="DevNameLabel">Device Name</small>
+					<div class="text-right">
+						<div id="name"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="cardsmall">
+					<div class="col-md-5 col-xs-5 pad0">
+						<small>CPU Loading</small>
+					</div>
+					<div class="col-md-7 col-xs-7 pad0 text-right">
+						<b id="CPULoading" class="font40"></b>
+						<span class="font18">%</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="cardsmall">
+					<div class="col-md-5 col-xs-5 pad0">
+						<small>MEM Loading</small>
+					</div>
+					<div class="col-md-7 col-xs-7 pad0 text-right">
+						<b id="MEMLoading" class="font40"></b>
+						<span class="font18">%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- temp -->
+		
+		<div class="col-md-6">
+			<div class="row cardbox ">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-md-10">
+							Storage Temperature (°C)
+						</div>
+						<div class="col-md-2 text-right">
+						</div>
+					</div>
+				</div>
+				<div class="panel-body text-center" id="Temperature">
+					<!-- <canvas id="Temperature"></canvas> -->
+				</div>
+			</div>
+		</div>
+		
+		<!-- temp end -->
+
+		<!-- lifespan -->
+		
+		<div class="col-md-6">
+			<div class="row cardbox ">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-md-10">
+							Storage Lifespan (Days)
+						</div>
+						<div class="col-md-2 text-right">
+						</div>
+					</div>
+				</div>
+				<div class="panel-body text-center" id="Lifespan">
+					<!-- <canvas id="Lifespan"></canvas> -->
+				</div>
+			</div>
+		</div>
+		
+		<!-- lifespan end -->
+
+		<!-- storage_info -->
+		
+		<div class="col-md-6">
+			<div class="row cardbox ">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-md-10">
+							Storage info
+						</div>
+						<div class="col-md-2 text-right">
+						</div>
+					</div>
+				</div>
+				<div class="panel-body text-center pad0">
+					<!-- card_setting -->
+					<div class="card_storage_info">
+						<div class="logtab">
+							<table valign="middle" id="storage-info-table">
+								<tr>
+									<td><b>Serial Number</b></td>
+									<td><b>Temp</b></td>
+									<td><b>Health</b></td>
+									<td><b>Wear Cycle</b></td>
+									<td><b>Lifespan</b></td>
+								</tr>
+							</table>
+						</div>
+
+					</div>
+					<!-- storage_info end -->
+				</div>
+			</div>
+		</div>
+		
+		<!-- device location end -->
+
+		<!-- device location -->
+		
+		<div class="col-md-6">
+			<div class="row cardbox ">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-md-10">
+							Device Location
+						</div>
+						<div class="col-md-2 text-right">
+						</div>
+					</div>
+				</div>
+				<div class="panel-body text-center location">
+					<!-- <b id="longitude"></b>
+					<b id="latitude"></b> -->
+					<div id="world-map"></div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- device location end -->
+	</div>
+	<!-- container end -->
+</html>

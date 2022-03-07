@@ -1,0 +1,432 @@
+@charset "UTF-8";
+/* line 3, ../../style/sass/components/cards.sass */
+.container {
+  /* card small */
+  /* card */
+  /* card_setting */
+  /* card_logs */
+  /* card_storage_info */
+}
+/* line 5, ../../style/sass/components/cards.sass */
+.container .cardsmall {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+  background-color: rgba(60, 60, 60, 0.8);
+  border-radius: 3px;
+  min-height: 55px;
+  margin: 5px 0;
+}
+/* line 13, ../../style/sass/components/cards.sass */
+.container .cardsmall .led-success {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background: #80db22;
+  box-shadow: 0 0 0 4px rgba(128, 219, 34, 0.33);
+}
+/* line 21, ../../style/sass/components/cards.sass */
+.container .cardsmall .led-warning {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background: #F5A623;
+  box-shadow: 0 0 0 4px rgba(255, 160, 70, 0.33);
+}
+/* line 29, ../../style/sass/components/cards.sass */
+.container .cardsmall .led-danger {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background: #e2222f;
+  box-shadow: 0 0 0 4px rgba(226, 34, 47, 0.33);
+}
+/* line 37, ../../style/sass/components/cards.sass */
+.container .cardsmall small {
+  font-size: 12px;
+  color: #888;
+}
+/* line 40, ../../style/sass/components/cards.sass */
+.container .cardsmall .text-right {
+  color: white;
+}
+/* line 45, ../../style/sass/components/cards.sass */
+.container .cardbox {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+/* line 51, ../../style/sass/components/cards.sass */
+.container .cardbox .panel-heading {
+  background-color: rgba(60, 60, 60, 0.8);
+  color: white;
+  padding: 4px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 0;
+}
+/* line 58, ../../style/sass/components/cards.sass */
+.container .cardbox .panel-heading a {
+  color: white;
+}
+/* line 60, ../../style/sass/components/cards.sass */
+.container .cardbox .panel-body {
+  height: auto;
+  max-height: 250px;
+  overflow-x: hidden;
+  background-color: rgba(42, 42, 42, 0.8);
+  height: 235px;
+  color: #85b738;
+}
+/* line 67, ../../style/sass/components/cards.sass */
+.container .cardbox .panel-body .text_header {
+  font-size: 14px;
+  padding-top: 40px;
+}
+/* line 70, ../../style/sass/components/cards.sass */
+.container .cardbox .panel-body .text_bady {
+  font-size: 80px;
+  font-weight: bold;
+  padding: 0px 0;
+}
+/* line 74, ../../style/sass/components/cards.sass */
+.container .cardbox .location {
+  padding: 0;
+}
+/* line 76, ../../style/sass/components/cards.sass */
+.container .cardbox .barNoData {
+  color: #ffffff;
+  margin-top: 15%;
+  font-weight: 700;
+}
+/* line 83, ../../style/sass/components/cards.sass */
+.container .card_setting {
+  background-color: rgba(42, 42, 42, 0.8);
+  overflow: hidden;
+  color: white;
+  border-radius: 5px;
+  /* Wrapper */
+  /* Circle */
+  /* Icons */
+}
+/* line 89, ../../style/sass/components/cards.sass */
+.container .card_setting .icon-button {
+  border-radius: 3rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 3rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3rem;
+}
+/* line 105, ../../style/sass/components/cards.sass */
+.container .card_setting .icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+/* line 118, ../../style/sass/components/cards.sass */
+.container .card_setting .icon-button:hover span {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  margin: -1.5rem;
+}
+/* line 123, ../../style/sass/components/cards.sass */
+.container .card_setting .but span {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/* line 126, ../../style/sass/components/cards.sass */
+.container .card_setting .icon-button i {
+  background: none;
+  color: #999;
+  height: 3rem;
+  left: 0;
+  line-height: 3rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3rem;
+  z-index: 10;
+  border-radius: 50%;
+}
+/* line 141, ../../style/sass/components/cards.sass */
+.container .card_setting .icon-button i:hover {
+  color: white;
+  border: 2px solid white;
+}
+/* line 144, ../../style/sass/components/cards.sass */
+.container .card_setting .icon-button .active {
+  color: white;
+  border: 2px solid white;
+}
+/* line 147, ../../style/sass/components/cards.sass */
+.container .card_setting .titleicon {
+  padding: 20px 0;
+  color: white;
+}
+/* line 152, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_left {
+  overflow: hidden;
+  border-right: 1px dashed #BABABA;
+  height: 333px;
+}
+/* line 158, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right select {
+  margin-bottom: 0.5em;
+  border-radius: 3px;
+  border: 1px solid #20CCAC;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #999;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 16px;
+}
+/* line 167, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right label {
+  display: block;
+  margin-bottom: 0.25em;
+}
+/* line 170, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right input[type=checkbox] {
+  display: none;
+}
+/* line 172, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right input {
+  font-size: 16px;
+  margin-bottom: 0.5em;
+  border-radius: 3px;
+  border: 1px solid #20CCAC;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.5em;
+}
+/* line 181, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-bottom: 0.6em;
+  content: "";
+  letter-spacing: 10px;
+}
+/* line 187, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right input:read-only {
+  background-color: rgba(42, 42, 42, 0.8);
+  color: #999999;
+}
+/* line 191, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right input[type=checkbox]:checked + label:before {
+  content: "";
+  letter-spacing: 5px;
+}
+/* line 194, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right .popmsg {
+  margin: 10px 0;
+}
+/* line 196, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right .popmsg .declare {
+  background: rgba(32, 204, 172, 0.5);
+  padding: 5px 7px;
+  border-radius: 4px;
+  color: #ffffff;
+  width: 100%;
+}
+/* line 202, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right .popmsg .declare .declareL {
+  width: 55px;
+  padding: 10px;
+}
+/* line 205, ../../style/sass/components/cards.sass */
+.container .card_setting .cardbox_right .popmsg .declare .declareR {
+  text-align: justify;
+  padding: 10px;
+}
+/* line 213, ../../style/sass/components/cards.sass */
+.container .card_logs {
+  background-color: rgba(60, 60, 60, 0.8);
+  color: white;
+}
+/* line 216, ../../style/sass/components/cards.sass */
+.container .card_logs .logtab {
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* line 219, ../../style/sass/components/cards.sass */
+.container .card_logs .logtab, .container .card_logs .logtab-body {
+  overflow: hidden;
+  zoom: 1;
+}
+/* line 222, ../../style/sass/components/cards.sass */
+.container .card_logs a {
+  display: block;
+  padding: 8px 10px;
+  color: #999;
+}
+/* line 226, ../../style/sass/components/cards.sass */
+.container .card_logs a:hover {
+  color: #85b738;
+  text-decoration: none;
+  font-weight: 700;
+}
+/* line 230, ../../style/sass/components/cards.sass */
+.container .card_logs .active {
+  color: #85b738;
+  text-decoration: none;
+  font-weight: 700;
+}
+/* line 234, ../../style/sass/components/cards.sass */
+.container .card_logs .t-overflow {
+  width: 97%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+}
+/* line 240, ../../style/sass/components/cards.sass */
+.container .card_logs .list-title {
+  width: 150px;
+  margin-top: 1px;
+}
+/* line 243, ../../style/sass/components/cards.sass */
+.container .card_logs .list-date {
+  width: 80px;
+  text-align: right;
+}
+/* line 248, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper label {
+  padding: 10px 10px 0 10px;
+  color: white;
+}
+/* line 251, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper label select {
+  border-radius: 3px;
+  border: 1px solid #bababa;
+  padding: 0.2em;
+  background-color: rgba(42, 42, 42, 0.8);
+}
+/* line 257, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper .dataTables_filter input {
+  border-radius: 3px;
+  border: 1px solid #bababa;
+  padding: 0.2em;
+  background-color: rgba(42, 42, 42, 0.8);
+}
+/* line 262, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper .dataTables_paginate {
+  padding: 5px;
+}
+/* line 264, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper .dataTables_paginate .paginate_button {
+  min-width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border: none;
+  text-align: center;
+  padding: 0 8px;
+  font-size: 14px;
+  vertical-align: baseline;
+  outline: 0;
+  box-shadow: none;
+  color: #fff !important;
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: 300;
+}
+/* line 279, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  border-radius: 3px;
+  border-bottom: 1px solid #aaa;
+  background-color: inherit;
+  background: inherit;
+  color: #efefef !important;
+}
+/* line 285, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper .dataTables_paginate .current {
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.8), 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: inherit;
+  background: inherit;
+}
+/* line 291, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper .dataTables_paginate .disabled {
+  opacity: 0.5;
+}
+/* line 293, ../../style/sass/components/cards.sass */
+.container .card_logs .dataTables_wrapper .dataTables_paginate .disabled:hover {
+  border: none;
+}
+/* line 297, ../../style/sass/components/cards.sass */
+.container .card_logs table {
+  background-color: rgba(42, 42, 42, 0.8);
+  color: white;
+  margin-bottom: 0;
+  font-size: 14px !important;
+}
+/* line 303, ../../style/sass/components/cards.sass */
+.container .card_logs table tbody > tr {
+  background-color: rgba(42, 42, 42, 0.8);
+}
+/* line 305, ../../style/sass/components/cards.sass */
+.container .card_logs table tbody > tr:hover {
+  color: #20CCAC;
+}
+/* line 307, ../../style/sass/components/cards.sass */
+.container .card_logs table tbody > tr.active {
+  color: #fff;
+}
+/* line 309, ../../style/sass/components/cards.sass */
+.container .card_logs table tbody > tr.active > td {
+  background-color: rgba(42, 42, 42, 0.8);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* line 315, ../../style/sass/components/cards.sass */
+.container .card_logs table tbody > tr.active:hover {
+  color: #20CCAC;
+}
+/* line 319, ../../style/sass/components/cards.sass */
+.container .card_storage_info {
+  color: #888;
+}
+/* line 321, ../../style/sass/components/cards.sass */
+.container .card_storage_info .logtab {
+  margin: 0;
+}
+/* line 323, ../../style/sass/components/cards.sass */
+.container .card_storage_info .logtab table {
+  width: 100%;
+}
+/* line 325, ../../style/sass/components/cards.sass */
+.container .card_storage_info .logtab table td {
+  color: white;
+  border-bottom: 1px dashed #ffffff;
+  padding: 6.5px 5px;
+}

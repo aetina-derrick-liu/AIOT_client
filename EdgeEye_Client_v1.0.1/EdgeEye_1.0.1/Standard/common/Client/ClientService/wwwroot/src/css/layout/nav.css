@@ -1,0 +1,264 @@
+/* line 2, ../../style/sass/layout/nav.sass */
+.wrapper #nav {
+  display: block;
+  width: 250px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-color: #58585B; /*sidebar background color*/
+  background-position: -264px 245px !important;
+  color: #ffffff;
+  transition: all 0.3s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+/* line 14, ../../style/sass/layout/nav.sass */
+.wrapper #nav .list-unstyled i {
+  margin: 0 5px;
+  color: #FFFFFF;
+  font-size: 1.3em;
+}
+/* line 18, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu {
+  position: fixed;
+}
+/* line 20, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu ul {
+  padding-top: 50px;
+}
+/* line 22, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu ul li {
+  padding: 10px;
+  transition: all 0.3s;
+}
+/* line 25, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu ul li:hover {
+  background: #ffffff;
+  color: #337ab7;
+}
+/* line 28, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu ul a {
+  font-size: 1.1em;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 32, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu ul a:active {
+  background: #afdefa;
+  color: #47a3da;
+}
+/* line 35, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu img {
+  margin: 0 10px 0 5px;
+}
+/* line 37, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu .sidebar-header {
+  padding: 50px 0 10px 0;
+}
+/* line 39, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu .sidebar-user {
+  padding: 20px 0;
+  background: #58585B;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* line 43, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu .sidebar-user p {
+  color: #ffffff;
+  padding: 5px 0;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 0;
+}
+/* line 51, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu .sidebar-user small {
+  color: #c1c1c1;
+  font-size: 12px;
+  font-weight: 400;
+}
+/* line 56, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu #dismiss i {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  right: 0;
+  text-align: center;
+  background-color: #58585B;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/* line 66, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu #dismiss i:hover {
+  background-color: white;
+}
+/* line 68, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu #dismiss:hover {
+  background-color: #ffffff;
+  color: #7386d5;
+}
+/* line 71, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu-left {
+  left: -250px;
+  top: 0;
+  z-index: 999;
+}
+/* line 75, ../../style/sass/layout/nav.sass */
+.wrapper .cbp-spmenu-left.cbp-spmenu-open {
+  left: 0;
+  top: 0;
+}
+/* line 78, ../../style/sass/layout/nav.sass */
+.wrapper .navbar {
+  padding: 0 10px;
+  background: #85b738;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+/* line 86, ../../style/sass/layout/nav.sass */
+.wrapper .navbar .navbar-header .btn {
+  background: #85b738;
+  color: #999999;
+}
+/* line 89, ../../style/sass/layout/nav.sass */
+.wrapper .navbar .navbar-header .btn:hover {
+  color: #fff;
+}
+/* line 91, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+/* line 95, ../../style/sass/layout/nav.sass */
+.wrapper .line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #dddddd;
+  margin: 40px 0;
+}
+/* line 100, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right {
+  float: right;
+  margin-bottom: 0;
+  margin-right: -30px;
+}
+/* line 104, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 107, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right li {
+  list-style-type: none;
+  padding: 15px 20px;
+  float: left;
+}
+/* line 111, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right li:hover {
+  background-color: #58585B;
+}
+/* line 113, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right i {
+  font-size: 18px;
+}
+/* line 115, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .t02 {
+  white-space: mowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 100%;
+}
+/* line 121, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .badge {
+  background-color: #ff0018;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 5px;
+  padding: 0 2px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 2px;
+}
+/* line 137, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .dropdown-menu {
+  right: 0;
+  left: auto;
+  background-color: #efefef;
+}
+/* line 141, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .dropdown-menu li {
+  list-style-type: none;
+  padding: 8px 5px;
+  border-bottom: 1px solid #eeeeee;
+  width: 100%;
+}
+/* line 146, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .dropdown-menu li:hover {
+  background-color: #efefef;
+}
+/* line 148, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .dropdown-menu a {
+  color: #999999;
+  background-color: #efefef;
+  padding: 0px;
+}
+/* line 152, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .dropdown-menu a:hover {
+  color: #58585B;
+  background-color: #efefef;
+}
+/* line 155, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .menu-event {
+  margin-right: -55px;
+  width: 300px;
+  height: auto;
+  max-height: 250px;
+  overflow-x: hidden;
+}
+/* line 161, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .menu-event li {
+  width: 100%;
+}
+/* line 163, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .menu-event li a {
+  overflow: hidden;
+  line-height: 15px;
+}
+/* line 166, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .menu-event li a .span-left {
+  font-size: 14px;
+  padding: 0;
+  width: 60%;
+}
+/* line 170, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .menu-event li a .span-right {
+  font-size: 12px;
+  padding: 0;
+  width: 40%;
+  overflow: hidden;
+  display: inline-block;
+}
+/* line 176, ../../style/sass/layout/nav.sass */
+.wrapper .navbar-right .menu-event li a .span-right i {
+  font-size: 12px;
+}
+/* line 180, ../../style/sass/layout/nav.sass */
+.wrapper #sidebarCollapse i {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+/* line 184, ../../style/sass/layout/nav.sass */
+.wrapper #sidebarCollapse i:hover {
+  opacity: 0.8;
+}

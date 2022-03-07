@@ -1,0 +1,328 @@
+@import color
+
+.container
+	/* card small */
+	.cardsmall
+		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2)
+		padding: 5px 10px
+		background-color: rgba(60, 60, 60, 0.8)
+		// border: 1px solid #20CCAC
+		border-radius: 3px
+		min-height: 55px
+		margin: 5px 0
+		.led-success
+			display: inline-block
+			width: 10px
+			height: 10px
+			border-radius: 10px
+			margin-left: 10px
+			background: $led-success
+			box-shadow: $ledshadow-success
+		.led-warning
+			display: inline-block
+			width: 10px
+			height: 10px
+			border-radius: 10px
+			margin-left: 10px
+			background: $led-warning
+			box-shadow: $ledshadow-warning
+		.led-danger
+			display: inline-block
+			width: 10px
+			height: 10px
+			border-radius: 10px
+			margin-left: 10px
+			background: $led-danger
+			box-shadow: $ledshadow-danger
+		small
+			font-size: 12px
+			color: #888
+		.text-right
+			color: $whitecolor
+
+
+	/* card */
+	.cardbox
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,.2)
+		overflow: hidden
+		border-radius: 5px
+		// border: 1px solid #20CCAC
+		margin: 10px 0
+		.panel-heading 
+			background-color: rgba(60, 60, 60, 0.8)
+			color: $whitecolor
+			padding: 4px 12px
+			font-size: 18px
+			font-weight: 700
+			border-bottom: 0
+			a
+				color: $whitecolor
+		.panel-body
+			height: auto
+			max-height: 250px
+			overflow-x: hidden
+			background-color: $cardbg
+			height: 235px
+			color: $titlecolor
+			.text_header
+				font-size: 14px
+				padding-top: 40px
+			.text_bady
+				font-size: 80px
+				font-weight: bold
+				padding: 0px 0
+		.location
+			padding: 0
+		.barNoData
+			color: #ffffff
+			margin-top: 15%
+			font-weight: 700
+			
+
+	/* card_setting */
+	.card_setting
+		background-color: $cardbg
+		overflow: hidden
+		color: $whitecolor
+		border-radius: 5px
+		/* Wrapper */
+		.icon-button
+			border-radius: 3rem
+			cursor: pointer
+			display: inline-block
+			font-size: 2.0rem
+			height: 3rem
+			line-height: 3rem
+			margin: 0 5px
+			position: relative
+			text-align: center
+			-webkit-user-select: none
+			-moz-user-select: none
+			-ms-user-select: none
+			user-select: none
+			width: 3rem
+		/* Circle */
+		.icon-button span
+			border-radius: 0
+			display: block
+			height: 0
+			left: 50%
+			margin: 0
+			position: absolute
+			top: 50%
+			-webkit-transition: all 0.3s
+			-moz-transition: all 0.3s
+			-o-transition: all 0.3s
+			transition: all 0.3s
+			width: 0
+		.icon-button:hover span
+			width: 3rem
+			height: 3rem
+			border-radius: 3rem
+			margin: -1.5rem
+		.but span
+			background-color: rgba(255, 255, 255, 0.3)
+		/* Icons */
+		.icon-button i
+			background: none
+			color: #999
+			height: 3rem
+			left: 0
+			line-height: 3rem
+			position: absolute
+			top: 0
+			-webkit-transition: all 0.3s
+			-moz-transition: all 0.3s
+			-o-transition: all 0.3s
+			transition: all 0.3s
+			width: 3rem
+			z-index: 10
+			border-radius: 50%
+		.icon-button i:hover
+			color: $iconcolor
+			border: 2px solid $iconcolor
+		.icon-button .active
+			color: $iconcolor
+			border: 2px solid $iconcolor
+		.titleicon
+			padding: 20px 0
+			color: $iconcolor
+
+
+		.cardbox_left
+			overflow: hidden
+			border-right: 1px dashed #BABABA
+			height: 333px
+
+		.cardbox_right
+			select
+				margin-bottom: .5em
+				border-radius: 3px
+				border: 1px solid $PrimaryColor
+				background-color: rgba(255, 255, 255, 0.2)
+				color: #999
+				width: 100%
+				padding: .5em
+				font-size: 16px
+			label
+				display: block
+				margin-bottom: .25em
+			input[type=checkbox]
+				display: none
+			input
+				font-size: 16px
+				margin-bottom: .5em
+				border-radius: 3px
+				border: 1px solid $PrimaryColor
+				background-color: rgba(255, 255, 255, 0.2)
+				color: $whitecolor	
+				padding: .5em
+
+			input[type=checkbox] + label:before
+				font-family: FontAwesome
+				display: inline-block
+				margin-bottom: 0.6em
+				content: "\F096"
+				letter-spacing: 10px
+			input:read-only
+				background-color: rgba(42, 42, 42, 0.8)
+				color: #999999
+
+			input[type=checkbox]:checked + label:before
+				content: "\F046"
+				letter-spacing: 5px
+			.popmsg
+				margin: 10px 0
+				.declare
+					background: rgba(32,204,172,0.5)
+					padding: 5px 7px
+					border-radius: 4px
+					color: #ffffff
+					width: 100%
+					.declareL
+						width: 55px
+						padding: 10px
+					.declareR
+						text-align: justify
+						padding: 10px
+
+			
+				
+
+	/* card_logs */
+	.card_logs
+		background-color: rgba(60, 60, 60, 0.8)
+		color: $whitecolor
+		.logtab
+			margin: 0
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+		.logtab, .logtab-body
+			overflow: hidden
+			zoom: 1
+		a
+			display: block
+			padding: 8px 10px
+			color: #999
+		a:hover
+			color: $titlecolor
+			text-decoration: none
+			font-weight: 700
+		.active
+			color: $titlecolor
+			text-decoration: none
+			font-weight: 700
+		.t-overflow
+			width: 97%
+			white-space: nowrap
+			overflow: hidden
+			text-overflow: ellipsis
+			float: left
+		.list-title
+			width: 150px
+			margin-top: 1px
+		.list-date
+			width: 80px
+			text-align: right
+		
+		.dataTables_wrapper
+			label
+				padding: 10px 10px 0 10px
+				color: $whitecolor
+				select
+					border-radius: 3px
+					border: 1px solid #bababa
+					padding: 0.2em
+					background-color: $cardbg
+			.dataTables_filter
+				input
+					border-radius: 3px
+					border: 1px solid #bababa
+					padding: 0.2em
+					background-color: $cardbg
+			.dataTables_paginate
+				padding: 5px
+				.paginate_button
+					min-width: 30px
+					height: 30px
+					line-height: 28px
+					border: none
+					text-align: center
+					padding: 0 8px
+					font-size: 14px 
+					vertical-align: baseline
+					outline: 0
+					box-shadow: none
+					color: #fff !important
+					cursor: pointer
+					margin-left: 5px
+					font-weight: 300
+				.paginate_button:hover
+					border-radius: 3px
+					border-bottom: 1px solid #aaa
+					background-color: inherit
+					background: inherit
+					color: #efefef !important
+				.current
+					border-radius: 3px
+					border: 1px solid #aaa
+					box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.8), 0px 1px 3px rgba(0, 0, 0, 0.2)
+					background-color: inherit
+					background: inherit
+				.disabled
+					opacity: 0.5
+					&:hover
+						border: none
+						
+
+		table
+			background-color: $cardbg
+			color: $whitecolor
+			margin-bottom: 0
+			font-size: 14px !important
+			tbody
+				>tr
+					background-color: $cardbg
+					&:hover
+						color: $PrimaryColor
+				>tr.active
+					color: #fff
+					>td
+						background-color: $cardbg
+						font-size: 14px
+						line-height: 1.4
+						font-weight: 300
+						border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+				>tr.active:hover
+					color: #20CCAC
+
+	/* card_storage_info */
+	.card_storage_info
+		color: #888
+		.logtab
+			margin: 0
+			table
+				width: 100%
+				td
+					color: $whitecolor
+					border-bottom: 1px dashed #ffffff
+					padding: 6.5px 5px

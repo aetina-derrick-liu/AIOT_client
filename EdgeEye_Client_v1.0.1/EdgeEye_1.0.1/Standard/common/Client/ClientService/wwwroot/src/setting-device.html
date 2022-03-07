@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="js/api/setting.js"></script>
+
+</head>
+<body>
+	<div class="col-md-6">
+		<label>Device Name</label>
+		<input type="" class="form-control" id="devName" placeholder="" readonly>
+	</div>
+	<div class="col-md-6">
+		<label for="text">Alias</label>
+		<input type="" class="form-control" id="aliastext" placeholder="">
+	</div>
+	<div class="col-md-6">
+		<label for="text">Server IP</label>
+		<input type="" class="form-control" id="ipaddr" placeholder="">
+	</div>
+	<div class="col-md-6">
+		<label for="text">Upload Interval (second)</label>
+		<input type="" class="form-control" id="upintervaltext" placeholder="">
+	</div>
+	<!--div class="col-md-6">
+		<label for="text">Data Limit Count</label>
+		<input type="" class="form-control" id="datalimittext" placeholder="">
+	</div>
+	<div class="col-md-6">
+		<label for="text">Event re-send interval (second)</label>
+		<input type="" class="form-control" id="resendinterval" placeholder="">
+	</div>-->
+	<div id="popmsg" class="col-md-12 popmsg" role="alert" style="display:none;">
+
+		<table class="declare">
+			<tr>
+				<td class="text-center declareL">
+					<i class="fa fa-exclamation-triangle fa-2x" aria-hidden="true"></i>
+				</td>
+				<td class="declareR">
+					Set device parameter success.
+				</td>
+			</tr>
+		</table>
+
+	</div>
+	<div class="col-md-12">
+		<button type="button" class="btn btn-mini btn-dark submit-btn">Submit</button>
+	</div>
+</body>
+</html>
